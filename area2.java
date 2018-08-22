@@ -10,8 +10,8 @@ class Ideone
 	public static void main (String[] args) throws java.lang.Exception
 	{
 		Scanner s=new Scanner(System.in);
-		float a=s.nextFloat();
-		float b=s.nextFloat();
+		double a=s.nextFloat();
+		double b=s.nextFloat();
 		double c=a*b;
 		
 		System.out.format("%.5f",c);
