@@ -14,16 +14,20 @@ class Ideone
 		int n=s1.length();
 		int i=0,j=1;
 		char[] a=s1.toCharArray();
+		try{
 		while(i<n)
 		{
 			System.out.print(a[i]);
 			i=i+2;
 		}
 		System.out.print(" ");
-		while(j<=n)
+		while(j<n)
 		{
 		   System.out.print(a[j]);
 		   j=j+2;
 		}
+		}
+		catch(Exception e)
+		{}
 	}
 }
