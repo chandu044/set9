@@ -9,11 +9,11 @@ class Ideone
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
-		Scanner s=new Scanner(System.in);
-		String s1=s.next();
-		int n=s1.length();
+		Scanner sc=new Scanner(System.in);
+		String s=sc.next();
+		int n=s.length();
 		int i=0,j=1;
-		char[] a=s1.toCharArray();
+		char[] a=s.toCharArray();
 		try{
 		while(i<n)
 		{
