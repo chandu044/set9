@@ -18,6 +18,8 @@ class Ideone
 			{
 				if(i!=1)
 				System.out.print(i);
+				else if(a==1||b==1)
+				System.out.print(i);
 			}
 		}
 	}
